@@ -1,10 +1,10 @@
 #include<stdio.h>
-void main()
+int main()
 {
-char c;
-scanf("%c",&c);
-if(c>='a' && c<='z')
-printf("Alphabet",c);
+char cc;
+scanf("%c",&cc);
+if(cc>='a' && cc<='z')
+printf("Alphabet",cc);
 else
-printf("no",c);
+printf("no",cc);
 }
